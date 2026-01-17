@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover Santhosh Kamal P's professional journey - from technical foundations to strategic project management leadership across global markets">
+    <title>About - Santhosh Kamal P | Professional Journey</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'text-primary': '#E8F1F5',
+                        'text-secondary': '#94B8D1',
+                        'text-muted': '#6B8A9F',
+                        'accent': '#00E5FF',
+                        'success': '#26FFB8',
+                        'surface': '#162B42',
+                    },
+                    fontFamily: {
+                        headline: ['Segoe UI', 'Tahoma', 'sans-serif'],
+                        body: ['Segoe UI', 'Tahoma', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<nav id="main-nav" class="fixed top-0 left-0 w-full z-50 transition-all duration-300 nav-glass">
+    <div class="container mx-auto max-w-6xl px-4 py-4 flex justify-between items-center">
+        
+        <a href="#" class="text-2xl font-bold text-glow-animate tracking-wider">
+        Santhosh <span class="text-accent">Kamal</span>
+        </a>
+
+        <div class="hidden md:flex items-center gap-8">
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#education" class="nav-link">Education</a>
+            <a href="#experience" class="nav-link">Experience</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#awards" class="nav-link">Awards</a>
+            <a href="#volunteer" class="nav-link">Volunteer</a>
+            <a href="#contact" class="btn-glow-sm ml-4">
+                Let's Connect
+            </a>
+        </div>
+
+        <button id="mobile-menu-toggle" class="md:hidden text-text-primary focus:outline-none p-2">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+        </button>
+    </div>
+
+    <div id="mobile-menu" class="md:hidden hidden absolute w-full nav-glass border-t border-accent/20">
+        <div class="flex flex-col p-6 space-y-6 items-center">
+            
+                <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            
+                <a href="#education" class="nav-link">Education</a>
+          
+            <a href="#experience" class="mobile-nav-link">Experience</a>
+            <a href="#projects" class="mobile-nav-link">Projects</a>
+            <a href="#awards" class="mobile-nav-link">Awards</a>
+            <a href="#volunteer" class="mobile-nav-link">Volunteer</a>
+            <a href="#contact" class="btn-glow-sm mt-4 w-full text-center">
+                Let's Connect
+            </a>
+        </div>
+    </div>
+</nav>
+<body class="ocean-bg min-h-screen text-text-primary">
+    <div class="scroll-progress" id="scrollProgress"></div>
+    <canvas id="underwater-particles"></canvas>
+
+    <section id="about" class="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 pt-20 pb-16 relative z-10">
+        <div class="container mx-auto max-w-6xl">
+            <div class="flex flex-col lg:flex-row items-center gap-12">
+                <div class="reveal-fade lg:w-1/3 flex justify-center">
+                    <div class="profile-portal-container">
+                        <div class="portal-ring"></div>
+                        <div class="portal-ring-delayed"></div>
+                        <div class="image-frame glass-depth">
+                            <img src="kamal.png" alt="Santhosh Kamal P" class="profile-image">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center lg:text-left lg:w-2/3 space-y-8 reveal-fade">
+                    <h1 class="font-headline text-5xl md:text-6xl lg:text-7xl font-bold text-text-primary text-bio-glow">
+                        About Me
+                    </h1>
+                    <p class="font-body text-xl md:text-2xl text-text-secondary max-w-3xl leading-relaxed">
+                        Results-driven professional with 4.5+ years of experience in procurement, stakeholder coordination, and project execution support, backed by an MBA and PMP® certification.
+                        Skilled in cross-functional collaboration, project tracking, and process improvement to deliver measurable outcomes.
+                        Actively transitioning into <span class="text-accent font-semibold">Project Management / PMO roles</span> with a strong operations-driven mindset.
+                    </p>
+                    <div class="bio-divider max-w-md lg:mx-0 mx-auto mt-8"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="content-wrapper relative z-10">
+        <section id="education" class="education-section">
+            <div class="container mx-auto max-w-6xl px-4">
+                
+                <div class="text-center mb-16 reveal">
+                    <h1 class="text-4xl text-glow-animate font-bold mb-4">Education Reef</h1>
+                    <p class="text-lg text-secondary max-w-3xl mx-auto">
+                        Building trust and authority through credential validation and continuous professional development
+                    </p>
+                    <div class="divider-glow mt-8"></div>
+                </div>
+
+                <div class="grid lg:grid-cols-2 gap-8 mb-20 justify-items-center">
+                    
+                    <div class="glass-card rounded-xl p-8 ripple-effect cert-card-glow reveal-stagger w-full max-w-xl">
+                        <div class="flex flex-col sm:flex-row items-center sm:items-start gap-6">
+                            <div class="flex-shrink-0">
+                                <div class="cert-badge-pulse flex items-center justify-center text-4xl" style="width: 96px; height: 96px; background: rgba(0, 229, 255, 0.1); border: 1px solid rgba(0, 229, 255, 0.3); border-radius: 1rem;">🎓</div>
+                            </div>
+                            <div class="flex-1 text-center sm:text-left">
+                                <div class="flex flex-col sm:flex-row items-center gap-3 mb-3">
+                                    <h3 class="text-2xl font-bold text-accent">PMP Certification</h3>
+                                    <span class="badge-primary cert-badge-pulse whitespace-nowrap">✓ Verified</span>
+                                </div>
+                                <p class="text-secondary mb-6">Project Management Institute (PMI)</p>
+                                <button class="btn-primary text-sm px-8">🔗 Verify Credential</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="glass-card rounded-xl p-8 ripple-effect cert-card-glow reveal-stagger w-full max-w-xl">
+                        <div class="flex flex-col sm:flex-row items-center sm:items-start gap-6">
+                            <div class="flex-shrink-0">
+                                <div class="cert-badge-pulse flex items-center justify-center text-4xl" style="width: 96px; height: 96px; background: rgba(0, 229, 255, 0.1); border: 1px solid rgba(0, 229, 255, 0.3); border-radius: 1rem;">📊</div>
+                            </div>
+                            <div class="flex-1 text-center sm:text-left">
+                                <div class="flex flex-col sm:flex-row items-center gap-3 mb-3">
+                                    <h3 class="text-2xl font-bold text-accent">Google Project Management</h3>
+                                    <span class="badge-primary cert-badge-pulse whitespace-nowrap">✓ Verified</span>
+                                </div>
+                                <p class="text-secondary mb-6">Google Career Certificates via Coursera</p>
+                                <button class="btn-primary text-sm px-8">🔗 Verify Credential</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-16 reveal-stagger">
+                    <h2 class="text-3xl font-bold text-primary mb-12 text-center">Academic Foundation</h2>
+                    <div class="grid md:grid-cols-2 gap-8 justify-items-center">
+                        
+                        <div class="glass-card rounded-xl p-8 ripple-effect float-animation w-full max-w-md">
+                            <div class="flex items-start gap-5">
+                                <div class="text-5xl">🏛️</div>
+                                <div class="flex-1">
+                                    <h3 class="text-xl font-bold text-accent mb-1">Mechanical Engineering</h3>
+                                    <p class="text-secondary mb-1">Adhiyaman College of Engineering</p>
+                                    <p class="text-sm text-muted mb-4">8.8 CGPA</p>
+ <div class="flex items-center gap-2 text-sm text-success bg-success/10 p-2 rounded-lg inline-flex">
+                                        <span class="animate-spin-slow">📅</span><span>Graduated: 2021</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="glass-card rounded-xl p-8 ripple-effect float-animation w-full max-w-md" style="animation-delay: 0.3s;">
+                            <div class="flex items-start gap-5">
+                                <div class="text-5xl">🏛️</div>
+                                <div class="flex-1">
+                                    <h3 class="text-xl font-bold text-accent mb-1">MBA</h3>
+                                    <p class="text-secondary mb-1">sastra university</p>
+                                    <p class="text-sm text-muted mb-4">9.2 CGPA </p>
+                                    <div class="flex items-center gap-2 text-sm text-success bg-success/10 p-2 rounded-lg inline-flex">
+                                        <span class="animate-spin-slow">📅</span><span>Graduated: 2021</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+                <div class="reveal-stagger mb-16">
+                    <h2 class="text-3xl font-bold text-primary mb-8 text-center">
+                        Professional Development
+                    </h2>
+                    <div class="grid md:grid-cols-3 gap-6">
+                        <div class="glass-card rounded-xl p-6 ripple-effect text-center float-animation">
+                            <div style="font-size: 4rem; margin-bottom: 1rem;">⚡</div>
+                            <h3 class="text-xl font-bold text-accent mb-2">
+                                Agile Methodologies
+                            </h3>
+                            <p class="text-sm text-secondary mb-4">
+                                Scrum, Kanban, and Lean principles for adaptive project delivery
+                            </p>
+                            <span class="badge-primary">
+                                ✓ Certified
+                            </span>
+                        </div>
+
+                        <div class="glass-card rounded-xl p-6 ripple-effect text-center float-animation" style="animation-delay: 0.3s;">
+                            <div style="font-size: 4rem; margin-bottom: 1rem;">🔗</div>
+                            <h3 class="text-xl font-bold text-accent mb-2">
+                                Supply Chain Excellence
+                            </h3>
+                            <p class="text-sm text-secondary mb-4">
+                                Advanced procurement strategies and vendor management
+                            </p>
+                            <span class="badge-success">
+                                ✓ Specialized
+                            </span>
+                        </div>
+
+                        <div class="glass-card rounded-xl p-6 ripple-effect text-center float-animation" style="animation-delay: 0.6s;">
+                            <div style="font-size: 4rem; margin-bottom: 1rem;">🤝</div>
+                            <h3 class="text-xl font-bold text-accent mb-2">
+                                Stakeholder Engagement
+                            </h3>
+                            <p class="text-sm text-secondary mb-4">
+                                Cross-functional collaboration and executive communication
+                            </p>
+                            <span class="badge-primary">
+                                ✓ Advanced
+                            </span>
+                        </div>
+                    </div>
+                </div>
+<section id="experience" class="experience-section relative z-10 py-24">
+    <div class="container mx-auto max-w-5xl px-4">
+        
+        <div class="text-center mb-20 reveal-fade">
+            <h1 class="text-4xl md:text-5xl text-glow-animate font-bold mb-4">Experience Abyss</h1>
+            <p class="text-lg text-secondary max-w-2xl mx-auto">
+                Navigating through strategic procurement and project leadership across global markets.
+            </p>
+            <div class="divider-glow mt-8"></div>
+        </div>
+
+        <div class="relative border-l-2 border-accent/30 ml-4 md:mx-auto md:w-full">
+            
+            <div class="mb-16 ml-8 md:ml-0 relative w-full reveal-fade">
+                <div class="absolute -left-[41px] md:left-1/2 md:-translate-x-1/2 top-0 timeline-dot"></div>
+                <div class="md:w-[45%] md:ml-auto glass-card rounded-2xl p-8 hover-glow transition-all">
+                    <span class="badge-primary mb-4">Aug 2024 - Present</span>
+                    <h3 class="text-2xl font-bold text-accent">TE Connectivity Ltd – Bengaluru</h3>
+                    <p class="text-text-secondary font-semibold mb-4 italic">Sales & Product Management (NPI Support)</p>
+                    
+                    <div class="experience-content-wrapper relative">
+                        <ul class="space-y-3 text-text-secondary text-sm list-disc list-inside content-clamped">
+                            <li>Supported NPI and product change projects, coordinating across sales, engineering, quality, procurement, and customers.</li>
+                            <li>Acted as SPOC for PCN execution, improving customer response time by 30%.</li>
+                            <li>Tracked PPAP samples and launch readiness for European customers, ensuring on-time, in-spec deliveries.</li>
+                            <li>Managed RFQs, RFIs, sample orders, purchase requisitions, and internal orders aligned to project milestones.</li>
+                            <li>Prepared daily/weekly project dashboards and reports using SharePoint and Excel.</li>
+                        </ul>
+                        <button class="read-more-btn text-accent font-bold mt-4 flex items-center gap-1 hover:text-success transition-colors">
+                            Read More <span>↓</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mb-16 ml-8 md:ml-0 relative w-full reveal-fade">
+                <div class="absolute -left-[41px] md:left-1/2 md:-translate-x-1/2 top-0 timeline-dot"></div>
+                <div class="md:w-[45%] md:mr-auto glass-card rounded-2xl p-8 hover-glow transition-all">
+                    <span class="badge-primary mb-4">Apr 2022 - Mar 2024</span>
+                    <h3 class="text-2xl font-bold text-accent">Caterpillar India Pvt Ltd (via Quess Corp) – Chennai</h3>
+                    <p class="text-text-secondary font-semibold mb-4 italic">Procurement Analyst – NPI & Localization</p>
+                    
+                    <div class="experience-content-wrapper relative">
+                        <ul class="space-y-3 text-text-secondary text-sm list-disc list-inside content-clamped">
+                            <li>Led multiple concurrent NPI, localization, and supplier resourcing projects with $32M managed spend.</li>
+                            <li>Owned project planning, execution, monitoring, and closure, ensuring delivery on cost, quality, and schedule.</li>
+                            <li>Delivered $18–20M annual cost savings through strategic sourcing, clean-sheet costing, and negotiations.</li>
+                            <li>Drove $10.4M localization projects, reducing dependency on high-cost US/UK suppliers.</li>
+                            <li>Served as SPOC for NPI, NSI, and ECN programs across India, China, UK, and US with zero line stoppages.</li>
+                            <li>Identified and mitigated project risks, managed change control, and resolved supplier issues proactively.</li>
+                            <li>Prepared and presented project status, spend forecasts, risks, and milestone reports to leadership.</li>
+                            <li>Achieved $535K logistics savings in 3 months through optimized supplier coordination.</li>
+                        </ul>
+                        <button class="read-more-btn text-accent font-bold mt-4 flex items-center gap-1 hover:text-success transition-colors">
+                            Read More <span>↓</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mb-16 ml-8 md:ml-0 relative w-full reveal-fade">
+                <div class="absolute -left-[41px] md:left-1/2 md:-translate-x-1/2 top-0 timeline-dot"></div>
+                <div class="md:w-[45%] md:ml-auto glass-card rounded-2xl p-8 hover-glow transition-all">
+                    <span class="badge-primary mb-4">July 2021 - Mar 2022</span>
+                    <h3 class="text-2xl font-bold text-accent">Maxin Hydro Dynamic India Pvt Ltd</h3>
+                    <p class="text-text-secondary font-semibold mb-4 italic">Purchase Trainee</p>
+                    
+                    <div class="experience-content-wrapper relative">
+                        <ul class="space-y-3 text-text-secondary text-sm list-disc list-inside content-clamped">
+                            <li>Supported industrial plant setup projects (R.O. filtration & wastewater treatment systems).</li>
+                            <li>Coordinated material procurement, inventory tracking, and supplier follow-ups to meet installation timelines.</li>
+                        </ul>
+                        <button class="read-more-btn text-accent font-bold mt-4 flex items-center gap-1 hover:text-success transition-colors">
+                            Read More <span>↓</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+        </section>
+        <section id="projects" class="projects-section relative z-10 py-24">
+    <div class="container mx-auto max-w-6xl px-4">
+        
+        <div class="text-center mb-16 reveal-fade">
+            <h1 class="text-4xl md:text-5xl text-glow-animate font-bold mb-4">Projects Trench</h1>
+            <p class="text-lg text-secondary max-w-2xl mx-auto">
+                Navigating through strategic industrial localization, cost optimization, and global project execution.
+            </p>
+            <div class="divider-glow mt-8"></div>
+        </div>
+
+        <div class="grid lg:grid-cols-2 gap-8 mb-12">
+            
+            <div class="glass-card rounded-3xl p-8 border-l-4 border-success/50 reveal-fade relative overflow-hidden group">
+                <div class="absolute top-0 right-0 p-4 opacity-10 text-6xl group-hover:scale-110 transition-transform">🌎</div>
+                <h3 class="text-2xl font-bold text-accent mb-2">Global Localization Program</h3>
+                <p class="text-xs text-success font-mono uppercase tracking-widest mb-4">Caterpillar India Pvt Ltd</p>
+                <p class="text-text-secondary text-sm leading-relaxed mb-6">
+                    Led a <span class="text-white font-bold">$10.4M localization program</span> to reduce dependency on high-cost US/UK suppliers. Orchestrated a total project spend of <span class="text-white font-bold">$32M</span> across India, China, UK, and US markets.
+                </p>
+                <div class="flex flex-wrap gap-2">
+                    <span class="badge-primary text-[10px]">Strategic Sourcing</span>
+                    <span class="badge-primary text-[10px]">Supply Chain Optimization</span>
+                    <span class="badge-primary text-[10px]">Risk Mitigation</span>
+                </div>
+            </div>
+
+            <div class="glass-card rounded-3xl p-8 border-l-4 border-success/50 reveal-fade relative overflow-hidden group">
+                <div class="absolute top-0 right-0 p-4 opacity-10 text-6xl group-hover:scale-110 transition-transform">📉</div>
+                <h3 class="text-2xl font-bold text-accent mb-2">Strategic Cost Reduction</h3>
+                <p class="text-xs text-success font-mono uppercase tracking-widest mb-4">Caterpillar India Pvt Ltd</p>
+                <p class="text-text-secondary text-sm leading-relaxed mb-6">
+                    Delivered <span class="text-white font-bold">$18–20M annual cost savings</span> through strategic sourcing, clean-sheet costing, and aggressive negotiations. Achieved an additional <span class="text-white font-bold">$535K in logistics savings</span> within 3 months.
+                </p>
+                <div class="flex flex-wrap gap-2">
+                    <span class="badge-primary text-[10px]">Financial Forecasting</span>
+                    <span class="badge-primary text-[10px]">Clean-Sheet Costing</span>
+                    <span class="badge-primary text-[10px]">Vendor Management</span>
+                </div>
+            </div>
+
+            <div class="glass-card rounded-3xl p-8 border-l-4 border-accent/50 reveal-fade relative overflow-hidden group">
+                <div class="absolute top-0 right-0 p-4 opacity-10 text-6xl group-hover:scale-110 transition-transform">⚙️</div>
+                <h3 class="text-2xl font-bold text-accent mb-2">NPI & Change Management</h3>
+                <p class="text-xs text-accent font-mono uppercase tracking-widest mb-4">TE Connectivity Ltd</p>
+                <p class="text-text-secondary text-sm leading-relaxed mb-6">
+                    Served as the SPOC for PCN execution, improving customer response times by <span class="text-white font-bold">30%</span>. Managed RFQs, RFIs, and launch readiness for European customers while ensuring on-time, in-spec deliveries.
+                </p>
+                <div class="flex flex-wrap gap-2">
+                    <span class="badge-primary text-[10px]">PPAP Tracking</span>
+                    <span class="badge-primary text-[10px]">Milestone Reporting</span>
+                    <span class="badge-primary text-[10px]">Cross-Functional Leadership</span>
+                </div>
+            </div>
+
+            <div class="glass-card rounded-3xl p-8 border-l-4 border-accent/50 reveal-fade relative overflow-hidden group">
+                <div class="absolute top-0 right-0 p-4 opacity-10 text-6xl group-hover:scale-110 transition-transform">💧</div>
+                <h3 class="text-2xl font-bold text-accent mb-2">Industrial Plant Setup</h3>
+                <p class="text-xs text-accent font-mono uppercase tracking-widest mb-4">Maxin Hydro Dynamic India</p>
+                <p class="text-text-secondary text-sm leading-relaxed mb-6">
+                    Supported industrial projects for <span class="text-white font-bold">R.O. filtration and wastewater treatment systems</span>. Coordinated procurement and inventory tracking to meet critical installation timelines.
+                </p>
+                <div class="flex flex-wrap gap-2">
+                    <span class="badge-primary text-[10px]">Inventory Tracking</span>
+                    <span class="badge-primary text-[10px]">Material Procurement</span>
+                    <span class="badge-primary text-[10px]">Timeline Management</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+    </div>
+<section id="awards" class="awards-section relative z-10 py-24">
+    <div class="container mx-auto max-w-6xl px-4">
+        
+        <div class="text-center mb-20 reveal-fade">
+            <h1 class="text-4xl md:text-5xl text-glow-animate font-bold mb-4">Awards & Recognition</h1>
+            <p class="text-lg text-secondary max-w-2xl mx-auto">
+                Celebrating milestones in operational excellence and leadership.
+            </p>
+            <div class="divider-glow mt-8"></div>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+            
+            <div class="award-card glass-card rounded-2xl p-8 text-center float-delay-1 reveal-fade group">
+                <div class="award-icon-container mb-6 mx-auto">
+                    <div class="text-5xl group-hover:scale-110 transition-transform duration-500">🏅</div>
+                    <div class="icon-glow-ring"></div>
+                </div>
+                <h3 class="text-xl font-bold text-accent mb-2">Facility Manager Recognition</h3>
+                <p class="text-xs text-success font-mono uppercase tracking-widest mb-4">2023</p>
+                <p class="text-text-secondary text-sm leading-relaxed">
+                    Received formal appreciation for successfully leading a critical resourcing initiative, ensuring uninterrupted operations through effective stakeholder coordination and supplier alignment.
+                </p>
+            </div>
+
+            <div class="award-card glass-card rounded-2xl p-8 text-center float-delay-2 reveal-fade group">
+                <div class="award-icon-container mb-6 mx-auto">
+                    <div class="text-5xl group-hover:scale-110 transition-transform duration-500">🌟</div>
+                    <div class="icon-glow-ring"></div>
+                </div>
+                <h3 class="text-xl font-bold text-accent mb-2">Spot Award</h3>
+                <p class="text-xs text-success font-mono uppercase tracking-widest mb-4">2025</p>
+                <p class="text-text-secondary text-sm leading-relaxed">
+                    Awarded for driving a process improvement initiative that reduced RFQ lead time by 80%, significantly improving sourcing efficiency and project turnaround time.
+                </p>
+            </div>
+
+            <div class="award-card glass-card rounded-2xl p-8 text-center float-delay-3 reveal-fade group">
+                <div class="award-icon-container mb-6 mx-auto">
+                    <div class="text-5xl group-hover:scale-110 transition-transform duration-500">🥇</div>
+                    <div class="icon-glow-ring"></div>
+                </div>
+                <h3 class="text-xl font-bold text-accent mb-2">ECE Award</h3>
+                <p class="text-xs text-success font-mono uppercase tracking-widest mb-4">2025</p>
+                <p class="text-text-secondary text-sm leading-relaxed">
+                    Recognized for supporting critical PPAP samples with on-time shipment, contributing to successful project milestones and maintaining customer delivery commitments.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+<section id="volunteer" class="volunteer-section relative z-10 py-24">
+    <div class="container mx-auto max-w-6xl px-4">
+        
+        <div class="text-center mb-20 reveal-fade">
+            <h1 class="text-4xl md:text-5xl text-glow-animate font-bold mb-4">Volunteer Giving</h1>
+            <p class="text-lg text-secondary max-w-2xl mx-auto">
+                Contributing to community development and environmental sustainability through dedicated service.
+            </p>
+            <div class="divider-glow mt-8"></div>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+            
+            <div class="volunteer-card glass-card rounded-2xl overflow-hidden float-delay-1 reveal-fade group">
+                <div class="h-56 overflow-hidden relative">
+                    <img src="one.png" alt="Community Collaboration" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-surface/90 to-transparent"></div>
+                    <div class="absolute bottom-4 left-4 flex items-center gap-3">
+                        <span class="text-4xl">🤝</span>
+                        <h3 class="text-xl font-bold text-accent">CSR Committee Member</h3>
+                    </div>
+                </div>
+                <div class="p-6 relative">
+                    <p class="text-text-secondary text-sm leading-relaxed">
+                        Actively contributed as a CSR Committee Member, supporting community development initiatives and coordinating organizational social outreach programs.
+                    </p>
+                </div>
+            </div>
+
+            <div class="volunteer-card glass-card rounded-2xl overflow-hidden float-delay-2 reveal-fade group">
+                <div class="h-56 overflow-hidden relative">
+                    <img src="two.png" alt="Plantation Drive" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-surface/90 to-transparent"></div>
+                    <div class="absolute bottom-4 left-4 flex items-center gap-3">
+                        <span class="text-4xl">🌱</span>
+                        <h3 class="text-xl font-bold text-accent">Plantation Volunteer</h3>
+                    </div>
+                </div>
+                <div class="p-6 relative">
+                    <p class="text-text-secondary text-sm leading-relaxed">
+                        Participated as a Plantation Drive Volunteer with the Isha Foundation, promoting environmental sustainability through on-ground execution and team collaboration.
+                    </p>
+                </div>
+            </div>
+
+            <div class="volunteer-card glass-card rounded-2xl overflow-hidden float-delay-3 reveal-fade group">
+                <div class="h-56 overflow-hidden relative">
+                    <img src="three.png" alt="Event Coordination" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-surface/90 to-transparent"></div>
+                    <div class="absolute bottom-4 left-4 flex items-center gap-3">
+                        <span class="text-4xl">📋</span>
+                        <h3 class="text-xl font-bold text-accent">Activity Coordinator</h3>
+                    </div>
+                </div>
+                <div class="p-6 relative">
+                    <p class="text-text-secondary text-sm leading-relaxed">
+                        Supported planning and execution of volunteer activities by coordinating participants, schedules, and resources to ensure smooth and effective implementation.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<section id="contact" class="contact-section relative z-10 py-24">
+    <div class="container mx-auto max-w-6xl px-4">
+        
+        <div class="text-center mb-20 reveal-fade">
+            <h1 class="text-4xl md:text-5xl text-glow-animate font-bold mb-4">Connect Abyss</h1>
+            <p class="text-lg text-secondary max-w-2xl mx-auto">
+                Reach out for strategic project collaborations, PMO opportunities, or professional inquiries.
+            </p>
+            <div class="divider-glow mt-8"></div>
+        </div>
+
+        <div class="grid lg:grid-cols-2 gap-12 items-start">
+            
+            <div class="glass-card rounded-3xl p-10 reveal-fade float-delay-1">
+                <h3 class="text-2xl font-bold text-accent mb-8">Direct Channels</h3>
+                
+                <div class="flex items-center gap-6 mb-8 group">
+                    <div class="contact-icon-box text-3xl">✉️</div>
+                    <div>
+                        <p class="text-sm text-success font-mono uppercase tracking-widest mb-1">Email</p>
+                        <a href="mailto:manojkumarmk.m33@gmail.com" class="text-lg text-text-primary hover:text-accent transition-colors">
+                            manojkumarmk.m33@gmail.com
+                        </a> </div>
+                </div>
+
+                <div class="flex items-center gap-6 mb-8 group">
+                    <div class="contact-icon-box text-3xl">📞</div>
+                    <div>
+                        <p class="text-sm text-success font-mono uppercase tracking-widest mb-1">Phone</p>
+                        <a href="tel:+918838892493" class="text-lg text-text-primary hover:text-accent transition-colors">
+                            +91 8838892493
+                        </a> </div>
+                </div>
+
+                <div class="flex items-center gap-6 group">
+                    <div class="contact-icon-box text-3xl">💼</div>
+                    <div>
+                        <p class="text-sm text-success font-mono uppercase tracking-widest mb-1">LinkedIn</p>
+                        <a href="https://www.linkedin.com/in/manoj-kumar-m-208348149" target="_blank" class="text-lg text-text-primary hover:text-accent transition-colors">
+                            linkedin.com/in/manoj-kumar-m...
+                        </a> </div>
+                </div>
+            </div>
+
+            <div class="glass-card rounded-3xl p-10 reveal-fade float-delay-2">
+                <h3 class="text-2xl font-bold text-accent mb-8">Send a Transmission</h3>
+                <form action="mailto:manojkumarmk.m33@gmail.com" method="post" enctype="text/plain">
+                    <div class="mb-6">
+                        <label for="name" class="block text-sm text-secondary mb-2">Your Name</label>
+                        <input type="text" id="name" name="name" required class="form-input">
+                    </div>
+                    <div class="mb-6">
+                        <label for="email" class="block text-sm text-secondary mb-2">Your Email</label>
+                        <input type="email" id="email" name="email" required class="form-input">
+                    </div>
+                    <div class="mb-8">
+                        <label for="message" class="block text-sm text-secondary mb-2">Message</label>
+                        <textarea id="message" name="message" rows="5" required class="form-input"></textarea>
+                    </div>
+                    <button type="submit" class="btn-glow w-full flex justify-center items-center gap-2">
+                        <span>🚀</span> Transmit Message
+                    </button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</section>
+    <script>
+        const canvas = document.getElementById('underwater-particles');
+        const ctx = canvas.getContext('2d');
+        let particles = [];
+        
+        function resizeCanvas() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        }
+        window.addEventListener('resize', resizeCanvas);
+        resizeCanvas();
+
+        class Particle {
+            constructor() {
+                this.reset();
+            }
+            reset() {
+                this.x = Math.random() * canvas.width;
+                this.y = Math.random() * canvas.height;
+                this.size = Math.random() * 2 + 1;
+                this.speedY = Math.random() * 0.5 + 0.2;
+                this.opacity = Math.random() * 0.5;
+            }
+            update() {
+                this.y -= this.speedY;
+                if (this.y < 0) this.reset();
+            }
+            draw() {
+                ctx.fillStyle = `rgba(0, 229, 255, ${this.opacity})`;
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                ctx.fill();
+            }
+        }
+
+        for (let i = 0; i < 50; i++) particles.push(new Particle());
+
+        function animate() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            particles.forEach(p => { p.update(); p.draw(); });
+            requestAnimationFrame(animate);
+        }
+        animate();
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) entry.target.classList.add('active');
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.reveal-fade, .reveal, .reveal-stagger').forEach(el => observer.observe(el));
+    
+    document.addEventListener('DOMContentLoaded', () => {
+    const readMoreBtns = document.querySelectorAll('.read-more-btn');
+
+    readMoreBtns.forEach(btn => {
+        btn.addEventListener('click', function() {
+            const wrapper = this.parentElement;
+            const content = wrapper.querySelector('.content-clamped');
+            
+            content.classList.toggle('expanded');
+            wrapper.classList.toggle('is-expanded');
+
+            if (content.classList.contains('expanded')) {
+                this.innerHTML = 'Show Less <span>↑</span>';
+            } else {
+                this.innerHTML = 'Read More <span>↓</span>';
+                // Scroll back to card top when closing
+                wrapper.closest('.glass-card').scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }
+        });
+    });
+
+    // Re-trigger the reveal animation for dynamically changed heights
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) entry.target.classList.add('active');
+        });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.reveal-fade').forEach(el => observer.observe(el));
+});
+document.addEventListener('DOMContentLoaded', () => {
+    const observerOptions = {
+        threshold: 0.15,
+        rootMargin: "0px 0px -50px 0px"
+    };
+
+    const revealObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('active');
+            }
+        });
+    }, observerOptions);
+
+    // Apply observer to all elements with the 'reveal-fade' class
+    document.querySelectorAll('.reveal-fade').forEach(el => {
+        revealObserver.observe(el);
+    });
+});
+document.addEventListener('DOMContentLoaded', () => {
+    const observerOptions = {
+        threshold: 0.15,
+        rootMargin: "0px 0px -50px 0px"
+    };
+
+    const revealObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('active');
+            }
+        });
+    }, observerOptions);
+
+    // Apply observer to all elements with the 'reveal-fade' class
+    document.querySelectorAll('.reveal-fade').forEach(el => {
+        revealObserver.observe(el);
+    });
+});
+// (Your existing script)
+document.addEventListener('DOMContentLoaded', () => {
+    const observerOptions = {
+        threshold: 0.15,
+        rootMargin: "0px 0px -50px 0px"
+    };
+
+    const revealObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('active');
+            }
+        });
+    }, observerOptions);
+
+    document.querySelectorAll('.reveal-fade').forEach(el => {
+        revealObserver.observe(el);
+    });
+});
+document.addEventListener('DOMContentLoaded', () => {
+    // --- Mobile Menu Toggle ---
+    const mobileBtn = document.getElementById('mobile-menu-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const mobileLinks = mobileMenu.querySelectorAll('a');
+
+    // Toggle menu on button click
+    mobileBtn.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+    });
+
+    // Close menu when a link inside it is clicked
+    mobileLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            mobileMenu.classList.add('hidden');
+        });
+    });
+
+    // --- Optional: Darken navbar on scroll ---
+    const nav = document.getElementById('main-nav');
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 50) {
+            nav.classList.add('scrolled');
+        } else {
+            nav.classList.remove('scrolled');
+        }
+    });
+});
+</script>
+</body>
+</html>
